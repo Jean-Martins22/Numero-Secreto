@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroLimite = 3;
+let numeroLimite = 10;
 let tentativa = 1;
 let numeroSecreto = gerarNumeroAleatorio();
 mensagemInicial();
@@ -31,6 +31,7 @@ function verificarChute(){
 function exibirTextoNaTela(tag, texto){
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
+    responsiveVoice.speak(texto, 'Brazilian Portuguese Female', )
 }
 
 function gerarNumeroAleatorio() {
