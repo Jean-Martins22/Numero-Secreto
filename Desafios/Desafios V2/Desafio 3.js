@@ -30,7 +30,7 @@ function calcularFatorial(numero) {
     }
     let resultado = numero;
     numero--;
-    while (numero > 0){
+    while (numero > 0) {
         resultado = resultado * numero;
         numero--;
     }
@@ -52,34 +52,34 @@ console.log(dolar.toFixed(2));
 function calcularAreaPerimetroRetangular(altura, largura) {
     let area = altura * largura;
     let perimetro = 2 * (altura + largura);
-    
+
     console.log(`Área da sala: ${area} metros quadrados`);
     console.log(`Perímetro da sala: ${perimetro} metros`);
 }
-  
+
 let altura = 3;
 let largura = 5;
 calcularAreaPerimetroRetangular(altura, largura);
 
-  
+
 //5
 function calcularAreaPerimetroCircular(raio) {
     let area = Math.PI * raio * raio;
     let perimetro = 2 * Math.PI * raio;
-        
+
     console.log(`Área da sala circular: ${area.toFixed(2)} metros quadrados`);
     console.log(`Perímetro da sala circular: ${perimetro.toFixed(2)} metros`);
 }
-  
+
 let raio = 4;
-calcularAreaPerimetroCircular(raio);  
+calcularAreaPerimetroCircular(raio);
 
 //6
 function calcularTabuada(numero) {
-    if (numero <= 0){
+    if (numero <= 0) {
         return console.log('Não existe');
     }
-    for (let i = 1; i <= 10; i++){
+    for (let i = 1; i <= 10; i++) {
         console.log(`${numero} * ${i} = ${numero * i}`);
     }
 }

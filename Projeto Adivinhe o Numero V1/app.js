@@ -5,15 +5,15 @@ console.log('O número secreto é ' + numeroSecreto);
 let chute;
 let tentativas = 1;
 
-while (chute != numeroSecreto){
+while (chute != numeroSecreto) {
     chute = prompt(`Digite um número de 1 a ${numeroMaximo}`);
 
     if (chute == numeroSecreto) {
         break;
-    } else{
+    } else {
         if (chute > numeroSecreto) {
             alert(`O número secreto é menor que ${chute}`);
-        } else{
+        } else {
             alert(`O número secreto é maior que ${chute}`);
         }
         tentativas++;

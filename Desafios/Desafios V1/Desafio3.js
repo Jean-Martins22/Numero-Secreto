@@ -11,7 +11,7 @@
 //1
 let cont = 1;
 
-while (cont <= 10){
+while (cont <= 10) {
     console.log(cont);
     cont++;
 }
@@ -20,14 +20,14 @@ while (cont <= 10){
 //2
 let conta = 10;
 
-while (conta >= 1){
+while (conta >= 1) {
     console.log(conta);
     conta--;
 }
 
 //3
 let contad = prompt('Digite um número');
-while (contad >= 0){
+while (contad >= 0) {
     console.log(contad);
     contad--;
 }
@@ -35,7 +35,7 @@ while (contad >= 0){
 //4
 let numero = prompt('Digite um número');
 let contador = 0;
-while (contador <= numero){
+while (contador <= numero) {
     console.log(contador);
     contador++;
 }

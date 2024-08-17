@@ -15,7 +15,7 @@ Caso contrário, mostre "Tente novamente para ganhar.".
 //1
 let resposta = prompt('Qual o dia da semana? ');
 
-if (resposta == 'Sábado' || resposta == 'Domingo' ) {
+if (resposta == 'Sábado' || resposta == 'Domingo') {
     console.log('Bom fim de semana!');
 } else {
     console.log('Boa semana!');
@@ -23,17 +23,17 @@ if (resposta == 'Sábado' || resposta == 'Domingo' ) {
 
 //2
 let numero = prompt('Digite um número');
-if (numero >= 0){
+if (numero >= 0) {
     console.log(`O número: ${numero} é positivo`)
-} else{
+} else {
     console.log(`O número: ${numero} é negativo`)
 }
 
 //3
 let pontuacao = prompt('Digite uma pontuação');
-if (pontuacao >= 100){
+if (pontuacao >= 100) {
     console.log(`Parabéns, você venceu!`)
-} else{
+} else {
     console.log(`Tente novamente para ganhar`)
 }
 

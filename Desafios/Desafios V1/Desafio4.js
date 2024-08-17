@@ -61,17 +61,17 @@ console.log(`A soma de ${valor1} e ${valor2} é igual a ${resultadoSubtracao}`);
 
 //7
 let idade = prompt('Qual a sua idade?');
-if (idade >= 18){
+if (idade >= 18) {
     console.log('Você é maior de idade');
-}else{
+} else {
     console.log('Você é menor de idade');
 }
 
 //8
 let numero = prompt('Digite um número');
-if (numero > 0){
+if (numero > 0) {
     console.log(`O número ${numero} é positivo`);
-} else if (numero < 0){
+} else if (numero < 0) {
     console.log(`O número ${numero} é negativo`);
 } else {
     console.log('Seu número é um zero');
@@ -79,16 +79,16 @@ if (numero > 0){
 
 //9
 let cont = 1;
-while (cont <= 10){
+while (cont <= 10) {
     console.log(cont);
     cont++
 }
 
 //10
 let nota = 6;
-if (nota >= 7){
+if (nota >= 7) {
     console.log('Aprovado');
-}else {
+} else {
     console.log('Reprovado');
 }
 

@@ -9,16 +9,16 @@ function mensagemInicial() {
     exibirTextoNaTela('p', 'Escolha um número de 1 a 100');
 }
 
-function verificarChute(){
+function verificarChute() {
     let chute = document.querySelector('input').value;
-    if (chute == numeroSecreto){
+    if (chute == numeroSecreto) {
         exibirTextoNaTela('h1', 'Parabéns você acertou!');
         let palavraTentativa = tentativa > 1 ? 'tentativas' : 'tentativa';
         let frase = `Você descobriu o número secreto! com ${tentativa} ${palavraTentativa}`;
         exibirTextoNaTela('p', frase);
         document.getElementById('reiniciar').removeAttribute('disabled');
     } else {
-        if (chute > numeroSecreto){
+        if (chute > numeroSecreto) {
             exibirTextoNaTela('p', 'O número é menor');
         } else {
             exibirTextoNaTela('p', 'O número é maior');
@@ -28,7 +28,7 @@ function verificarChute(){
     }
 }
 
-function exibirTextoNaTela(tag, texto){
+function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
     campo.innerHTML = texto;
     responsiveVoice.speak(texto, 'Brazilian Portuguese Female', )
@@ -38,14 +38,14 @@ function gerarNumeroAleatorio() {
     let numeroEscolhido = parseInt(Math.random() * numeroLimite + 1);
     let tamanhoDaLista = listaDeNumerosSorteados.length;
 
-    if (tamanhoDaLista == numeroLimite){
+    if (tamanhoDaLista == numeroLimite) {
         listaDeNumerosSorteados = [];
     }
 
-    if (listaDeNumerosSorteados.includes(numeroEscolhido)){
+    if (listaDeNumerosSorteados.includes(numeroEscolhido)) {
         return gerarNumeroAleatorio();
     } else {
-        listaDeNumerosSorteados.push(numeroEscolhido); 
+        listaDeNumerosSorteados.push(numeroEscolhido);
         return numeroEscolhido;
     }
 }

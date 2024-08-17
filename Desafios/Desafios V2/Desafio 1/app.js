@@ -16,23 +16,23 @@ let titulo = document.querySelector('h1');
 titulo.innerHTML = 'Hora do Desafio';
 
 //2
-function verificarClique(){
+function verificarClique() {
     console.log('O botão foi clicado');
 }
 
 //3
-function mensagemAlerta(){
+function mensagemAlerta() {
     alert('Eu amo JS');
 }
 
 //4
-function perguntarCidade(){
+function perguntarCidade() {
     let cidade = prompt('Escreva o nome de alguma cidade');
     alert(`Estive em ${cidade} e lembrei de você`);
 }
 
 //5
-function somar(){
+function somar() {
     let numero1 = parseInt(prompt('Digite um número'));
     let numero2 = parseInt(prompt(`Agora digite outro número para somar com ${numero1}`));
     alert(`A soma de ${numero1} + ${numero2} é = ${numero1 + numero2}`);
