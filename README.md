@@ -1,6 +1,6 @@
 # Lógica de programação em JavaScript na Alura
 
-<h1>Projeto jogo do número secreto</h1>
+<h2>Projeto jogo do número secreto</h2>
 
 <h2>🔖 Sobre</h2>
 <p>Projeto utilizado nos cursos de lógica de programação da Alura, junto com os desafios.</p>
