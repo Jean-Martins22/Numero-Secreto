@@ -1,9 +1,8 @@
-# Lógica de programação em JavaScript na Alura
-
-<h2>Projeto jogo do número secreto</h2>
+<h1>Projeto jogo do número secreto</h1>
 
 <h2>🔖 Sobre</h2>
-<p>Projeto utilizado nos cursos de lógica de programação da Alura, junto com os desafios.</p>
+<p>Projeto que faz o usuário adivinhar o número sorteado pela máquina 🤖</p>
+<p>O link para testa-lo está ao lado direito -></p>
 
 ## 🚀 Tecnologias
 <div>
